@@ -13,10 +13,16 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(src)
+
+# Add source to this project's executable.
+add_executable (${PROJECT_NAME} ${SOURCES} "lib/glad/src/glad.c")
+
 add_subdirectory(lib)
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 target_link_libraries(${PROJECT_NAME} PUBLIC
 glfw
+glm
+glad
 )
