@@ -225,21 +225,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Conways-Game-Of-Life::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Conways-Game-Of-Life-Debug-9b6ea524d2172666cd25.json",
+					"jsonFile" : "target-Conways-Game-Of-Life-Debug-c5134ea2f7977728df55.json",
 					"name" : "Conways-Game-Of-Life",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "glad::@bf3af473941166e98053",
-					"jsonFile" : "target-glad-Debug-18ebac45f93d9e652b94.json",
+					"jsonFile" : "target-glad-Debug-8d230558e28072dd349f.json",
 					"name" : "glad",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "glfw::@17f284a5fc0809a54549",
-					"jsonFile" : "target-glfw-Debug-916da9ab2750bf3c2cd6.json",
+					"jsonFile" : "target-glfw-Debug-655aee95e12644ab7e22.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
@@ -263,8 +263,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug",
-		"source" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life"
+		"build" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug",
+		"source" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life"
 	},
 	"version" : 
 	{

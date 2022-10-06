@@ -38,6 +38,8 @@ void Window::InitialiseWindow()
 
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4); //Sets the maximum OpenGL version needed for GLFW
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2); //Sets the minimum OpenGL version needed for GLFW
+	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_COMPAT_PROFILE); //Sets GLFW to run in compatability mode
+	glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE); //Stops the window from being resized
 
 	glfwWindow = glfwCreateWindow(windowWidth, windowHeight, windowTitle.c_str(), NULL, NULL); //Creates a window
 
@@ -50,14 +52,14 @@ void Window::InitialiseWindow()
 
 	glfwMakeContextCurrent(glfwWindow); //Makes the window the current OpenGL context
 
-	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) //Checks to see if GLAD has loaded
+	if (!gladLoadGL(glfwGetProcAddress)) //Checks to see if GLAD has loaded
 	{
 		std::cout << "ERROR: GLAD unable to be initialized" << std::endl;
 
 		return; //Return out of the function
 	}
 
-	glClearColor(0.0f, 0.0f, 0.0f, 1.0f); //Sets the background colour to black
+	glfwSetWindowUserPointer(glfwWindow, NULL);
 
 	WindowRunning(); //Moves into running the window
 }
@@ -67,18 +69,27 @@ void Window::WindowRunning()
 	//AWAKE STATE
 	Cell CellSimulation(windowHeight, windowWidth); //Sets the size of the simulation to be the size of the window
 
+	glViewport(0, 0, windowWidth, windowHeight); //Sets the viewport position and size
+
 	//UPDATE LOOP
 	while(!glfwWindowShouldClose(glfwWindow)) //Keeps running until the Window Close flag has been reached
 	{
-		glViewport(0, 0, windowWidth, windowHeight); //Sets the viewport position and size
-		
+		glClearColor(0.0f, 0.0f, 0.0f, 1.0f); //Sets the background colour to black
 		glClear(GL_COLOR_BUFFER_BIT); //Clears the screen buffer
 
 		glfwSwapBuffers(glfwWindow); //Swaps the front and back buffers
+
+		glBegin(GL_LINES);
+			glColor3f(1.0f, 1.0f, 1.0f);
+
+			glVertex2i(0, 0);
+			glVertex2i(0, 100);
+			glVertex2i(100, 100);
+			glVertex2i(100, 0);
+		glEnd();
+
+		glfwPollEvents();
 	}
 
 	//END STATE
-
-	glfwDestroyWindow(glfwWindow); //Destroys the window & context
-	glfwTerminate(); //Terminate GLFW
 }

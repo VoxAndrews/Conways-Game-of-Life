@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glad/include"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glad/include"
 				}
 			],
 			"language" : "C",
@@ -98,13 +98,13 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "lib/glad/include/glad/glad.h",
+			"path" : "lib/glad/include/glad/gl.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lib/glad/src/glad.c",
+			"path" : "lib/glad/src/gl.c",
 			"sourceGroupIndex" : 1
 		}
 	],

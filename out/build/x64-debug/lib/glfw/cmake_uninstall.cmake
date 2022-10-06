@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug/lib/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug/lib/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug/lib/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug/lib/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug/lib/glfw/install_manifest.txt" files)
+file(READ "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug/lib/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

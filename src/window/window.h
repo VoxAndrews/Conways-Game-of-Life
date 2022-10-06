@@ -3,7 +3,7 @@
 #define GLFW_INCLUDE_NONE //Stops the inclusion of development environment header
 
 #include <GLFW/glfw3.h>
-#include <glad/glad.h>
+#include <glad/gl.h>
 #include <string>
 #include <iostream>
 

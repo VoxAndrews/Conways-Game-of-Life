@@ -69,22 +69,22 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/src"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/src"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glad/include"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glad/include"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glfw/include"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glfw/include"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glm"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glm"
 				}
 			],
 			"language" : "CXX",
@@ -106,22 +106,22 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/src"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/src"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glad/include"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glad/include"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glfw/include"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glfw/include"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glm"
+					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glm"
 				}
 			],
 			"language" : "C",
@@ -233,7 +233,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "lib/glad/src/glad.c",
+			"path" : "lib/glad/src/gl.c",
 			"sourceGroupIndex" : 0
 		}
 	],

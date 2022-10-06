@@ -15,7 +15,7 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 add_subdirectory(src)
 
 # Add source to this project's executable.
-add_executable (${PROJECT_NAME} ${SOURCES} "lib/glad/src/glad.c")
+add_executable (${PROJECT_NAME} ${SOURCES} "lib/glad/src/gl.c")
 
 add_subdirectory(lib)
 
