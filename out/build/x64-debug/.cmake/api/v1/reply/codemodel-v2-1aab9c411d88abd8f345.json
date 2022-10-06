@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						6
+						5
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
@@ -65,10 +65,6 @@
 				},
 				{
 					"build" : "src/shaders",
-					"childIndexes" : 
-					[
-						5
-					],
 					"jsonFile" : "directory-src.shaders-Debug-4131e8c0d61fa3b56b72.json",
 					"minimumCMakeVersion" : 
 					{
@@ -79,23 +75,12 @@
 					"source" : "src/shaders"
 				},
 				{
-					"build" : "src/shaders/shader_src",
-					"jsonFile" : "directory-src.shaders.shader_src-Debug-80e939d61dd2fbb25053.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.8"
-					},
-					"parentIndex" : 4,
-					"projectIndex" : 0,
-					"source" : "src/shaders/shader_src"
-				},
-				{
 					"build" : "lib",
 					"childIndexes" : 
 					[
-						7,
-						9,
-						11
+						6,
+						8,
+						10
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-lib-Debug-e9069484d90298468a11.json",
@@ -111,7 +96,7 @@
 					"build" : "lib/glfw",
 					"childIndexes" : 
 					[
-						8
+						7
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-lib.glfw-Debug-a853538b30341a4dbd4c.json",
@@ -119,7 +104,7 @@
 					{
 						"string" : "3.4"
 					},
-					"parentIndex" : 6,
+					"parentIndex" : 5,
 					"projectIndex" : 1,
 					"source" : "lib/glfw",
 					"targetIndexes" : 
@@ -135,7 +120,7 @@
 					{
 						"string" : "3.4"
 					},
-					"parentIndex" : 7,
+					"parentIndex" : 6,
 					"projectIndex" : 1,
 					"source" : "lib/glfw/src",
 					"targetIndexes" : 
@@ -148,14 +133,14 @@
 					"build" : "lib/glm",
 					"childIndexes" : 
 					[
-						10
+						9
 					],
 					"jsonFile" : "directory-lib.glm-Debug-ce07c1f5db497389ae15.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
 					},
-					"parentIndex" : 6,
+					"parentIndex" : 5,
 					"projectIndex" : 2,
 					"source" : "lib/glm"
 				},
@@ -166,7 +151,7 @@
 					{
 						"string" : "3.2"
 					},
-					"parentIndex" : 9,
+					"parentIndex" : 8,
 					"projectIndex" : 2,
 					"source" : "lib/glm/glm"
 				},
@@ -177,7 +162,7 @@
 					{
 						"string" : "3.0"
 					},
-					"parentIndex" : 6,
+					"parentIndex" : 5,
 					"projectIndex" : 3,
 					"source" : "lib/glad",
 					"targetIndexes" : 
@@ -203,8 +188,7 @@
 						2,
 						3,
 						4,
-						5,
-						6
+						5
 					],
 					"name" : "Conways-Game-Of-Life",
 					"targetIndexes" : 
@@ -215,8 +199,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						7,
-						8
+						6,
+						7
 					],
 					"name" : "GLFW",
 					"parentIndex" : 0,
@@ -230,8 +214,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						9,
-						10
+						8,
+						9
 					],
 					"name" : "glm",
 					"parentIndex" : 0
@@ -239,7 +223,7 @@
 				{
 					"directoryIndexes" : 
 					[
-						11
+						10
 					],
 					"name" : "Glad",
 					"parentIndex" : 0,
@@ -254,33 +238,33 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Conways-Game-Of-Life::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Conways-Game-Of-Life-Debug-0b343ffe912f657d193d.json",
+					"jsonFile" : "target-Conways-Game-Of-Life-Debug-38d67ffb29747d1563d9.json",
 					"name" : "Conways-Game-Of-Life",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 10,
 					"id" : "glad::@bf3af473941166e98053",
 					"jsonFile" : "target-glad-Debug-0950d9a4051027571cbd.json",
 					"name" : "glad",
 					"projectIndex" : 3
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 7,
 					"id" : "glfw::@17f284a5fc0809a54549",
 					"jsonFile" : "target-glfw-Debug-916da9ab2750bf3c2cd6.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 6,
 					"id" : "uninstall::@a7a2f639778f88e1b46d",
 					"jsonFile" : "target-uninstall-Debug-d321a3f4f6baaed255c8.json",
 					"name" : "uninstall",
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 7,
 					"id" : "update_mappings::@17f284a5fc0809a54549",
 					"jsonFile" : "target-update_mappings-Debug-5bbdfc2bcb3a410834da.json",
 					"name" : "update_mappings",

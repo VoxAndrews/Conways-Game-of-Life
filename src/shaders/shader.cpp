@@ -7,9 +7,20 @@ Shader::Shader(const char* vertexShaderPath, const char* fragmentShaderPath)
     std::string tmpFragShader; //A temporary string to store the entire fragment shader
 
     std::ifstream vertFile(vertexShaderPath); //A input file stream for the vertex shader file
-    if (!vertFile) exit(1); //Returns an error if the file is not found
+    if (!vertFile)
+    {
+        std::cout << "ERROR: Could not load Vertex Shader file!" << std::endl;
+        
+        exit(1); //Returns an error if the file is not found
+    }
+
     std::ifstream fragFile(fragmentShaderPath); //A input file stream for the fragment shader file
-    if (!fragFile) exit(1); //Returns an error if the file is not found
+    if (!fragFile)
+    {
+        std::cout << "ERROR: Could not load Fragment Shader file!" << std::endl;
+
+        exit(1); //Returns an error if the file is not found
+    }
 
     //Stringstreams to store the contents of the shader files
     std::stringstream vertShaderStream, fragShaderStream;
@@ -85,11 +96,28 @@ Shader::Shader(const char* vertexShaderPath, const char* fragmentShaderPath, con
     std::string tmpCompShader; //A temporary string to store the entire compute shader
 
     std::ifstream vertFile(vertexShaderPath); //A input file stream for the vertex shader file
-    if (!vertFile) exit(1); //Returns an error if the file is not found
+    if (!vertFile)
+    {
+        std::cout << "ERROR: Could not load Vertex Shader file!" << std::endl;
+
+        exit(1); //Returns an error if the file is not found
+    }
+
     std::ifstream fragFile(fragmentShaderPath); //A input file stream for the fragment shader file
-    if (!fragFile) exit(1); //Returns an error if the file is not found
-    std::ifstream compFile(computeShaderPath); //A input file stream for the compute shader file
-    if (!compFile) exit(1); //Returns an error if the file is not found
+    if (!fragFile)
+    {
+        std::cout << "ERROR: Could not load Fragment Shader file!" << std::endl;
+
+        exit(1); //Returns an error if the file is not found
+    }
+
+    std::ifstream compFile(computeShaderPath); //A input file stream for the fragment shader file
+    if (!compFile)
+    {
+        std::cout << "ERROR: Could not load Compute Shader file!" << std::endl;
+
+        exit(1); //Returns an error if the file is not found
+    }
 
     //Stringstreams to store the contents of the shader files
     std::stringstream vertShaderStream, fragShaderStream, compShaderStream;

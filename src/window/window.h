@@ -8,6 +8,7 @@
 #include <iostream>
 
 #include "cells/cell.h"
+#include "shaders/shader.h"
 
 /**
 * @class Window

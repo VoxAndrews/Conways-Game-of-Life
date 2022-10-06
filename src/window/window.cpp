@@ -60,6 +60,7 @@ void Window::WindowRunning()
 {
 	//AWAKE STATE
 	Cell CellSimulation; //Sets the size of the simulation to be the size of the window
+	Shader BasicShader("SimpleShaderVS.glsl", "SimpleShaderPS.glsl");
 
 	glViewport(0, 0, windowWidth, windowHeight); //Sets the viewport position and size
 
@@ -68,6 +69,8 @@ void Window::WindowRunning()
 	{
 		glClearColor(0.0f, 0.0f, 0.0f, 1.0f); //Sets the background colour to black
 		glClear(GL_COLOR_BUFFER_BIT); //Clears the screen buffer
+
+		CellSimulation.SetNextState();
 
 		glfwSwapBuffers(glfwWindow); //Swaps the front and back buffers
 
