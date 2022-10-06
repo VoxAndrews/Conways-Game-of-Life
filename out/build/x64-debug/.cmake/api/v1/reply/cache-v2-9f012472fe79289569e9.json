@@ -51,7 +51,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug"
+			"value" : "e:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -135,11 +135,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe"
+			"value" : "cl.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -247,11 +247,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe"
+			"value" : "cl.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -743,7 +743,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -943,7 +943,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "10"
+			"value" : "12"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1403,7 +1403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug"
 		},
 		{
 			"name" : "Conways-Game-Of-Life_IS_TOP_LEVEL",
@@ -1427,7 +1427,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1463,7 +1463,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug/lib/glfw"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug/lib/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1583,7 +1583,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glfw"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -1607,7 +1607,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug/lib/glad"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug/lib/glad"
 		},
 		{
 			"name" : "Glad_IS_TOP_LEVEL",
@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glad"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glad"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -1687,7 +1687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
 		},
 		{
 			"name" : "glm_BINARY_DIR",
@@ -1699,7 +1699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug/lib/glm"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug/lib/glm"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -1723,7 +1723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glm"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glm"
 		}
 	],
 	"kind" : "cache",

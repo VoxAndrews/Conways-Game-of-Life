@@ -141,15 +141,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glfw/include"
+					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glfw/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/lib/glfw/src"
+					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/lib/glfw/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug/lib/glfw/src"
+					"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug/lib/glfw/src"
 				}
 			],
 			"language" : "C",
@@ -203,7 +203,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
+			"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
 		}
 	},
 	"name" : "glfw",

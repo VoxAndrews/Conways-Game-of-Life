@@ -1,7 +1,10 @@
 #pragma once
 
 #include <vector>
-#include <cstdlib>
+#include <random>
+#include <chrono>
+#include <functional>
+#include <iostream>
 
 /**
 * @class Cell
@@ -19,11 +22,8 @@ public:
 		* @brief Cell Constructor
 		*
 		* This is a default construct for the Cell Class, which takes input variables
-		* 
-		* @param unsigned numOfColumns - The number of columns within the grid
-		* @param unsigned numOfRows - The number of rows within the grid
 		*/
-	Cell(unsigned numOfColumns, unsigned numOfRows);
+	Cell();
 		/**
 		* @brief Get Current State
 		*
@@ -45,11 +45,11 @@ public:
 	void SetNextState();
 private:
 		/**
-		* @param std::vector<std::vector<unsigned __int8>> currentGen - A 2D Array of unsigned integers (0 - 255) (Current Cell generation)
+		* @param std::vector<std::vector<bool>> currentGen - A 2D Array of unsigned integers (Current Cell generation)
 		*/
-	std::vector<std::vector<unsigned __int8>> currentGen;
+	std::vector<std::vector<bool>> currentGen;
 		/**
-		* @param std::vector<std::vector<unsigned __int8>> nextGen - A 2D Array of unsigned integers (0 - 255) (The following Cell generation)
+		* @param std::vector<std::vector<bool>> nextGen - A 2D Array of unsigned integers (The following Cell generation)
 		*/
-	std::vector<std::vector<unsigned __int8>> nextGen;
+	std::vector<std::vector<bool>> nextGen;
 };

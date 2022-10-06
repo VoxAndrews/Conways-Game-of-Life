@@ -5,15 +5,9 @@ Window::Window(const std::string& inputTitle)
 	//Set parameters
 	this->glfwWindow = nullptr;
 
+	this->windowWidth = 600;
+	this->windowHeight = 600;
 	this->windowTitle = inputTitle;
-
-	std::cout << "Set Grid/Window Width: ";
-	std::cin >> windowWidth;
-	std::cout << std::endl;
-
-	std::cout << "Set Grid/Window Height: ";
-	std::cin >> windowHeight;
-	std::cout << std::endl;
 
 	InitialiseWindow(); //Initialize Window/GLFW
 }
@@ -59,15 +53,13 @@ void Window::InitialiseWindow()
 		return; //Return out of the function
 	}
 
-	glfwSetWindowUserPointer(glfwWindow, NULL);
-
 	WindowRunning(); //Moves into running the window
 }
 
 void Window::WindowRunning()
 {
 	//AWAKE STATE
-	Cell CellSimulation(windowHeight, windowWidth); //Sets the size of the simulation to be the size of the window
+	Cell CellSimulation; //Sets the size of the simulation to be the size of the window
 
 	glViewport(0, 0, windowWidth, windowHeight); //Sets the viewport position and size
 
@@ -79,16 +71,7 @@ void Window::WindowRunning()
 
 		glfwSwapBuffers(glfwWindow); //Swaps the front and back buffers
 
-		glBegin(GL_LINES);
-			glColor3f(1.0f, 1.0f, 1.0f);
-
-			glVertex2i(0, 0);
-			glVertex2i(0, 100);
-			glVertex2i(100, 100);
-			glVertex2i(100, 0);
-		glEnd();
-
-		glfwPollEvents();
+		glfwPollEvents(); //Polls for Keyboard/Mouse events
 	}
 
 	//END STATE

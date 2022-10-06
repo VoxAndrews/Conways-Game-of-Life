@@ -1,7 +1,7 @@
-prefix=C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug
+prefix=E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug
 exec_prefix=${prefix}
-includedir=C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug/include
-libdir=C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug/lib
+includedir=E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug/include
+libdir=E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

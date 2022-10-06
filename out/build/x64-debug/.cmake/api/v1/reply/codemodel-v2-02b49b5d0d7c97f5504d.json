@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						4
+						6
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
@@ -29,7 +29,8 @@
 					"childIndexes" : 
 					[
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
 					"minimumCMakeVersion" : 
@@ -63,12 +64,38 @@
 					"source" : "src/cells"
 				},
 				{
+					"build" : "src/shaders",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-src.shaders-Debug-4131e8c0d61fa3b56b72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/shaders"
+				},
+				{
+					"build" : "src/shaders/shader_src",
+					"jsonFile" : "directory-src.shaders.shader_src-Debug-80e939d61dd2fbb25053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/shaders/shader_src"
+				},
+				{
 					"build" : "lib",
 					"childIndexes" : 
 					[
-						5,
 						7,
-						9
+						9,
+						11
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-lib-Debug-e9069484d90298468a11.json",
@@ -84,7 +111,7 @@
 					"build" : "lib/glfw",
 					"childIndexes" : 
 					[
-						6
+						8
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-lib.glfw-Debug-a853538b30341a4dbd4c.json",
@@ -92,7 +119,7 @@
 					{
 						"string" : "3.4"
 					},
-					"parentIndex" : 4,
+					"parentIndex" : 6,
 					"projectIndex" : 1,
 					"source" : "lib/glfw",
 					"targetIndexes" : 
@@ -108,7 +135,7 @@
 					{
 						"string" : "3.4"
 					},
-					"parentIndex" : 5,
+					"parentIndex" : 7,
 					"projectIndex" : 1,
 					"source" : "lib/glfw/src",
 					"targetIndexes" : 
@@ -121,14 +148,14 @@
 					"build" : "lib/glm",
 					"childIndexes" : 
 					[
-						8
+						10
 					],
 					"jsonFile" : "directory-lib.glm-Debug-ce07c1f5db497389ae15.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
 					},
-					"parentIndex" : 4,
+					"parentIndex" : 6,
 					"projectIndex" : 2,
 					"source" : "lib/glm"
 				},
@@ -139,7 +166,7 @@
 					{
 						"string" : "3.2"
 					},
-					"parentIndex" : 7,
+					"parentIndex" : 9,
 					"projectIndex" : 2,
 					"source" : "lib/glm/glm"
 				},
@@ -150,7 +177,7 @@
 					{
 						"string" : "3.0"
 					},
-					"parentIndex" : 4,
+					"parentIndex" : 6,
 					"projectIndex" : 3,
 					"source" : "lib/glad",
 					"targetIndexes" : 
@@ -175,7 +202,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					],
 					"name" : "Conways-Game-Of-Life",
 					"targetIndexes" : 
@@ -186,8 +215,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						5,
-						6
+						7,
+						8
 					],
 					"name" : "GLFW",
 					"parentIndex" : 0,
@@ -201,8 +230,8 @@
 				{
 					"directoryIndexes" : 
 					[
-						7,
-						8
+						9,
+						10
 					],
 					"name" : "glm",
 					"parentIndex" : 0
@@ -210,7 +239,7 @@
 				{
 					"directoryIndexes" : 
 					[
-						9
+						11
 					],
 					"name" : "Glad",
 					"parentIndex" : 0,
@@ -225,33 +254,33 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Conways-Game-Of-Life::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Conways-Game-Of-Life-Debug-c5134ea2f7977728df55.json",
+					"jsonFile" : "target-Conways-Game-Of-Life-Debug-0b343ffe912f657d193d.json",
 					"name" : "Conways-Game-Of-Life",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 11,
 					"id" : "glad::@bf3af473941166e98053",
-					"jsonFile" : "target-glad-Debug-8d230558e28072dd349f.json",
+					"jsonFile" : "target-glad-Debug-0950d9a4051027571cbd.json",
 					"name" : "glad",
 					"projectIndex" : 3
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 8,
 					"id" : "glfw::@17f284a5fc0809a54549",
-					"jsonFile" : "target-glfw-Debug-655aee95e12644ab7e22.json",
+					"jsonFile" : "target-glfw-Debug-916da9ab2750bf3c2cd6.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 7,
 					"id" : "uninstall::@a7a2f639778f88e1b46d",
 					"jsonFile" : "target-uninstall-Debug-d321a3f4f6baaed255c8.json",
 					"name" : "uninstall",
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 8,
 					"id" : "update_mappings::@17f284a5fc0809a54549",
 					"jsonFile" : "target-update_mappings-Debug-5bbdfc2bcb3a410834da.json",
 					"name" : "update_mappings",
@@ -263,8 +292,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life/out/build/x64-debug",
-		"source" : "C:/Users/32926762/Documents/GitHub/Conways-Game-of-Life"
+		"build" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/build/x64-debug",
+		"source" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life"
 	},
 	"version" : 
 	{
