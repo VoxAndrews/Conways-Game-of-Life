@@ -203,7 +203,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/install/x64-debug"
+			"path" : "E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
 		}
 	},
 	"name" : "glfw",

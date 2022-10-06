@@ -1,15 +1,21 @@
 #include "window.h"
 
-Window::Window(const std::string& inputTitle, int inputWidth, int inputHeight)
+Window::Window(const std::string& inputTitle)
 {
 	//Set parameters
 	this->glfwWindow = nullptr;
 
 	this->windowTitle = inputTitle;
-	this->windowWidth = inputWidth;
-	this->windowHeight = inputHeight;
 
-	InitializeWindow(); //Initialize Window/GLFW
+	std::cout << "Set Grid/Window Width: ";
+	std::cin >> windowWidth;
+	std::cout << std::endl;
+
+	std::cout << "Set Grid/Window Height: ";
+	std::cin >> windowHeight;
+	std::cout << std::endl;
+
+	InitialiseWindow(); //Initialize Window/GLFW
 }
 
 Window::~Window()
@@ -19,7 +25,7 @@ Window::~Window()
 	glfwTerminate(); //Terminate GLFW
 }
 
-void Window::InitializeWindow()
+void Window::InitialiseWindow()
 {
 	glfwInit(); //Attempts to initialize GLFW
 	
@@ -30,7 +36,7 @@ void Window::InitializeWindow()
 		return; //Return out of the function
 	}
 
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4); //Sets the mamimum OpenGL version needed for GLFW
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4); //Sets the maximum OpenGL version needed for GLFW
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2); //Sets the minimum OpenGL version needed for GLFW
 
 	glfwWindow = glfwCreateWindow(windowWidth, windowHeight, windowTitle.c_str(), NULL, NULL); //Creates a window
@@ -58,6 +64,10 @@ void Window::InitializeWindow()
 
 void Window::WindowRunning()
 {
+	//AWAKE STATE
+	Cell CellSimulation(windowHeight, windowWidth); //Sets the size of the simulation to be the size of the window
+
+	//UPDATE LOOP
 	while(!glfwWindowShouldClose(glfwWindow)) //Keeps running until the Window Close flag has been reached
 	{
 		glViewport(0, 0, windowWidth, windowHeight); //Sets the viewport position and size
@@ -66,4 +76,9 @@ void Window::WindowRunning()
 
 		glfwSwapBuffers(glfwWindow); //Swaps the front and back buffers
 	}
+
+	//END STATE
+
+	glfwDestroyWindow(glfwWindow); //Destroys the window & context
+	glfwTerminate(); //Terminate GLFW
 }

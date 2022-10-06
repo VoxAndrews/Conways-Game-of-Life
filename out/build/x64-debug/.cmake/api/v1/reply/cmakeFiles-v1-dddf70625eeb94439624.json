@@ -147,6 +147,9 @@
 			"path" : "src/window/CMakeLists.txt"
 		},
 		{
+			"path" : "src/cells/CMakeLists.txt"
+		},
+		{
 			"path" : "lib/CMakeLists.txt"
 		},
 		{

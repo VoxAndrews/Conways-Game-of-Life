@@ -743,7 +743,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/install/x64-debug"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -943,7 +943,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "10"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1687,7 +1687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-Of-Life/out/install/x64-debug"
+			"value" : "E:/Users/darcy/Documents/GitHub/Conways-Game-of-Life/out/install/x64-debug"
 		},
 		{
 			"name" : "glm_BINARY_DIR",
